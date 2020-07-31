@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.navButtons {
+  font-weight: 800;
+}
+.navContent {
+  /* padding: 0 7rem; */
+}
+.table1 {
+  margin: 1rem 30rem 0rem 30rem;
+  /* padding: 2rem; */
+}
+@media only screen and (max-width: 1024px) {
+
+  .sparkLogo{
+    text-align: center;
+
+  }
+  .sparkLogo1{
+
+    width:30%;
+
+  }
+  .headingWebinar{
+    font-weight: 600 !important;
+    font-size: 0.8rem;
+  }
+  .table1 {
+    margin: 0 2rem 2rem 2rem;
+  }
+  .onPC {
+    visibility: hidden;
+    display: none;
+  }
+  .text-heading {
+    font-size: 2rem !important;
+  }
+  .text-subheading {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    margin-top: 2vh;
+  }
+  .button {
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .onPhone {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.ADD-Heading {
+  text-align: center;
+}
+.text-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center;
+}
+.text-subheading {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.tableHeading {
+  margin-top: 1rem;
+  text-align: center;
+}
+.heading {
+  font-weight: 600;
+  font-size: 3rem;
+}
+.button {
+  text-align: center;
+  margin-bottom: 2rem !important;
+  margin-top: 1rem !important;
+}
+.formButton {
+  border-radius: 30px;
+}
+.text {
+  font-weight: 500 !important;
+}
+.page-footer{
+    margin-bottom: 0 !important;
+}
+
+.logo1{
+  text-align: center;
+}
+.logo{width:70%;}
+.headingWebinar{
+  font-weight: 600;
+}
+.registration{
+  margin-top: 30px;
+  text-align: center;
+}
+.procedure{
+  text-align: left;
+  padding:0 7vw;
+}
+.redColour{
+  /* background-color: #ff0000;
+   */
+   background-color: white;
+   color:black; 
+}
+.logo2{
+  margin-top: 8px;
+  width:12%;
+  /* overflow: hidden; */
+}
+.navButtons{
+  color: black;
+}
+.redColour1{
+  background-color: #ed1c24;
+  
+  
+}
+.button-redColour:hover{
+  background-color: #b90000;
+}
+
+.section1 {
+  flex: 1 0 auto;
+}
+.textC{
+  text-align: center;
+  font-weight: 600;
+}
+.sparkLogo1{
+  width:20%;
+
+}
+.text{
+  text-align: center;
+}
+.schedule{
+  margin-top:20px
+}
+.disabled{
+  z-index: 20;
+  background-color: rgba(0, 0, 0,0.13);
+}
+.slotStatus{
+  font-weight: 700;
+}
+.instructions{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
